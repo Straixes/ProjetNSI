@@ -1,0 +1,50 @@
+* {
+    background-color: bisque;
+}
+
+input.acceuil:hover{
+    transform: scale(1.3);
+    transition: 0.5s all;
+}
+
+input.acceuil{
+    background-color: rgb(49, 48, 48);
+    color: aliceblue;
+}
+
+ul.acceuil{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 6%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+}
+
+div.Q{
+    margin-left: 40%;
+}
+
+div.valider {
+    text-align: center;
+    margin-right: 10%;
+}
+
+hr{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+p.copyright{
+    color:rgb(41, 40, 40);
+    font-size: small;
+    text-align: center;
+}
