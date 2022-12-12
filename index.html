@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script src="../script.js" defer></script>
+    <link rel="stylesheet" href="../css/stylesIndex.css">
+    <meta charset="UTF-8">
+    <title>NSI</title>
+    <header>
+        <input class="panier" type="image" src="../images/panier.png" alt="submit" width="48" height="48" onclick="MonPanier()">
+        <h1 class="Titre"> Chez Quentin, <br> Vendeur d'objet en tout genre</h1> 
+    </header>
+</head>
+<body>
+    <header>
+        <ul class="acceuil">
+            <input class="acceuil" type="button" onclick="AcheterObjets()" value="Acheter des objets">
+            <input class="acceuil" type="button" onclick="EnSavoirPlus()" value="En savoir plus">
+            <input class="acceuil" type="button" onclick="MonPanier()" value="Voir mon panier"> 
+ 
+        </ul>
+    </header>
+    <h3>Voici un petit apercu de quelques objets en vente !</h3>
+    <div class="appercu">
+        <li class="appercu" >Console portable <img class="appercu" id="console-portable" src="../images/Console-portable.jpg" alt="Console-portable"> </li>
+        <li class="appercu" >vieux téléphone <img class="appercu" id="vieux-telephone" src="../images/vieux-telephone.jpg" alt="vieux-telephone"> </li>
+        <li class="appercu" >cables hdmi <img class="appercu" id="cable-hdmi" src="../images/cable-hdmi.jpg" alt="Cable-hdmi"> </li>
+        <li class="appercu" >Montre connecté <img class="appercu" id="montre-connecte" src="../images/montre-connecte.jpg" alt="montre-connecte"> </li>
+    </div>
+    <ul class="voir-plus">
+        <p>voir plus d'objets</p>
+        <input type="image" src="../images/voir-plus.png" alt="submit" width="48" height="48" onclick="AcheterObjets()">
+    </ul>
+    <form action="identifiant.php" method="post">
+        <label> s'identifier </label> : <input type="text" name="identifiant"> : <input class="idendification" type="submit" value="s'identifier">
+    </form>
+    
+</body>
+<footer>
+    <p class="copyright">All right reserved © 2022-2023 Quentin Lang</p>
+</footer>
+</html>
